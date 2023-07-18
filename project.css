@@ -1,0 +1,179 @@
+/* CLASS AND CLASS-1,2,3 & 4 */
+body{
+    font-family: 'league spartan';
+    background-image: url(imagess/bg-pattern-top-desktop.svg), url(imagess/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    margin: 65px;
+}
+.hero{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    margin: 0 40px;
+
+}
+
+.hero-1{
+    margin: 5px 5px;
+}
+
+
+.hero-1 h1{
+    font-size: 40px;
+    color: #4B204F;
+   width: 80%;
+   font-weight: 700;
+}
+
+.hero-1 p{
+    width: 80%;
+}
+
+.class{
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    color: #502050;
+    margin: 15px 0;
+    padding: 0 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.stars{
+    margin: 0 15px;
+}
+
+.class-2{
+    width: 100%;
+    left: 20px;
+}
+
+.class-3{
+    width: 98%;
+    left: 40px;
+}
+
+
+/* MAIN */
+.love{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+} 
+
+.moon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+}
+
+ .main img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+ .main{
+    background-color: hsl(300, 83%, 11%);
+    margin: 0 5px;
+    border-radius: 10px;
+    height: 80%;
+    width: 50%;
+    position: relative;
+}
+
+.moon h1{
+    color: #fff;
+    font-size: 20px;
+    margin: 25px 10px 0;
+}   
+
+ .moon h2{
+    color: #c91cc9;
+    font-size: 20px;
+    margin: 0 10px 20px ;
+}
+
+ .main p{
+    color: #fff;
+    margin: 0 25px;
+    font-family: arial;
+}
+ 
+.main-2{
+    top: 20px;
+} 
+
+.main-3{
+    top: 40px;
+} 
+
+@media (max-width:500px) {
+    
+    .hero{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .hero-1 h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-1 p{
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .class{
+        display: block;
+        width: 90%;      
+        height: 90px;  
+        position: unset;
+    }
+
+    .class p{
+        margin-left: 50px;
+        color: #502050;
+        font-size: 20px;
+        font-weight: 900;
+       
+    }
+   .stars{
+    text-align: center;
+   }
+
+    .stars img{
+      margin: 10px 0;
+      align-items: center;
+    }
+
+    .love{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        width: 200%;
+
+    }
+
+    .main{
+        position: unset;
+        margin: 10px 0;
+    }
+
+    body{
+        margin: 20px;
+    }
+   
+}
